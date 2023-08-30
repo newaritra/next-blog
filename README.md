@@ -1,8 +1,15 @@
 A link to the video demo of the same project : https://youtu.be/w22C40AX5BM
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project has **three APIs** running on three endpoints. Namely,
+  - http://localhost:3000/api/fetch (GET) : Fetches all the blog posts from the db
+  - http://localhost:3000/api/search (POST) : Fetches the posts which have matches with the string entered in the search bar
+  - http://localhost:3000/api/filter (POST) : Fetches the blogs posts based on the filter selected in the select dropdown menu
 
-## Getting Started
+Learnings:
+  - Worked on **NextJS 13** and understood how it's working with sever components
+  - **Debouncing** teh search result by creating a custom hook for debouncing and fetching
+  - Revisisted some algorithms that helped in creating the filtered posts
+
 
 First, run the development server:
 
